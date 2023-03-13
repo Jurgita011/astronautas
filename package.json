@@ -1,0 +1,16 @@
+{
+  "name": "astronautas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": " dead-server --host=localhost --port=4303",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Jurgita\"",
+  "license": "MIT",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
