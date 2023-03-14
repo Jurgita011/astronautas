@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astonautas</title>
     <style>
+        
+            
+        
         header,
         main,
         footer { 
@@ -15,24 +18,50 @@
         }
 
        header {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
         background-color: pink; 
+    }
+        img {
+           
+        }
+
+        nav {
+            background-color: yellow;
+          }
+
+        a{
+            margin-left: 40px;
+    
+         }
+         a:first-child{
+            margin-left: 0;
+         }
        
-       }
-       main { 
+        main { 
         background-color: aqua; 
        
        }
       floter {
         background-color: coral; 
-       
        }
-
-    </style>
-</head>
+ </style>
+ </head>
 
 <body>
-    <header>HEADER</header>
+    <header>
+        <img src="./logo.png" alt="Clay">
+
+         <nav>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Jobs</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
     <main>MAIN</main>
-    <footer>FOOTER</flooter>
+    <footer>FOOTER</footer>
 </body>
 </html>
