@@ -58,8 +58,12 @@ margin-top: 20px;
     display: block;
      font-weight: normal;
  }
-p {
-
+.title::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #662b8c;
 }
 
 .btn {
